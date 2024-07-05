@@ -12,8 +12,7 @@ If you would like to support Schooltape, you can do so by starring the [reposito
 <img
 src="https://docs.github.com/assets/cb-8462/mw-1440/images/help/stars/unstarring-a-repository.webp"
 alt="How to star a repository"
-width="500"
->
+width="500">
 :::
 
 You can also help to improve Schooltape by [contributing](/contributing/index.md) to the project.
