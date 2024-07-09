@@ -19,7 +19,7 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 | Themes                    | ✅               | ✅      | 🟠 Manual styling  | ✅                  |
 | Snippet ecosystem         | ✅               | ❌      | ❌                 | ❌                  |
 | Browser suppot            |                  |         |                    |                     |
-| Chrome                    | 🟠 Not on store  | ✅      | ✅                 | 🟠 Not on store     |
+| Chrome                    | ✅               | ✅      | ✅                 | 🟠 Not on store     |
 | Firefox                   | ✅               | ✅      | ❌                 | 🟠 Unlisted         |
 | Edge                      | 🟠               | 🟠      | 🟠                 | 🟠                  |
 | Software info             |                  |         |                    |                     |
