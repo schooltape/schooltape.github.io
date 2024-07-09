@@ -18,7 +18,7 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 | Command palette 🔌        | ❌ soon™         | ❌      | ❌                 | ❌                  |
 | Themes                    | ✅               | ✅      | 🟠 Manual styling  | ✅                  |
 | Snippet ecosystem         | ✅               | ❌      | ❌                 | ❌                  |
-| Browser suppot            |                  |         |                    |                     |
+| Browser support           |                  |         |                    |                     |
 | Chrome                    | ✅               | ✅      | ✅                 | 🟠 Not on store     |
 | Firefox                   | ✅               | ✅      | ❌                 | 🟠 Unlisted         |
 | Edge                      | 🟠               | 🟠      | 🟠                 | 🟠                  |
