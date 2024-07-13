@@ -1,16 +1,47 @@
 # Snippets
 
-::: warning
-This documentation is still being prepared for the upcoming `v3.0.0` release of Schooltape. Please check back later.
-
-To receive the latest updates, you can join our [Discord server](https://discord.gg/rZxtGJ98BE)
+::: info
+Please read the [contribution instructions](/contributing) before contributing.
 :::
 
 ## Public Snippets
 
-::: info
-Guide coming soon!
-:::
+1. Append your snippet to the bottom of `SNIPPET_INFO` in `src/utils/constants.ts`
+    ```ts
+    export const SNIPPET_INFO: Record<string, SnippetInfo> = {
+        hidePfp: {
+            name: "Hide PFP",
+            description: "Hide your profile picture across Schoolbox.",
+            order: 0,
+        },
+        // ..
+        <yourSnippetName>: { // [!code ++]
+            name: "<Your Snippet Name>", // [!code ++]
+            description: "<Your Snippet Description>", // [!code ++]
+            order: "<Next Order Number>", // [!code ++]
+        }, // [!code ++]
+    };
+    ```
+2. Append your snippet to the bottom of `snippets` in `src/utils/storage.ts`
+    ```ts
+    export const snippetSettings = storage.defineItem<Types.SnippetSettings>("local:snippetSettings", {
+        // ..
+        defaultValue: {
+            // ..
+            snippets: {
+                hidePfp: {
+                    toggle: true,
+                },
+                // ..
+                <yourSnippetName>: { // [!code ++]
+                    toggle: false, // [!code ++]
+                }, // [!code ++]
+            },
+        },
+    });
+    ```
+3. Create a new file in `src/public/snippets` with the name `<yourSnippetName>.css`
+4. Put in your CSS code and [test it](/contributing/#setup)!
 
 ## User Snippets
 
