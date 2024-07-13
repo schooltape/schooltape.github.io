@@ -66,7 +66,7 @@ If you haven't used Git before, I'd highly recommend reading [Pro Git](https://g
 
 ## Develop
 
-1. [Open an issue](https://github.com/schooltape/schooltape/issues/new?assignees=42willow&labels=enhancement&projects=&template=feature_request.yml) describing your snippet to get your idea approved
+1. [Open an issue](https://github.com/schooltape/schooltape/issues/new?assignees=42willow&labels=enhancement&projects=&template=feature_request.yml) describing your change to get your idea approved
 
 2. Please read the specific guides on how to contribute your own:
    - [Plugins](./plugins.md)
