@@ -1,5 +1,9 @@
 # Chrome / Chromium-based
 
+## From Chrome Web Store
+
+<a href="https://chromewebstore.google.com/detail/schooltape/denkadefchjkchlefgfhdmabagdcefhf"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome_Web_Store-b7bdf8?style=for-the-badge&logo=GoogleChrome&logoColor=24273a"></a>
+
 ## From GitHub releases
 
 1. Download the `schooltape-<version>-chrome.zip` from the bottom of the [latest release page](https://github.com/schooltape/schooltape/releases/latest).

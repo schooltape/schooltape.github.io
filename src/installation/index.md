@@ -8,8 +8,10 @@ outline: deep
 
 The extension is available on the Chrome Web Store and the Firefox Add-ons extension store. Click on your browser's badge below to install.
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/schooltape/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox_Add--ons-f5a97f?style=for-the-badge&logo=Firefox-Browser&logoColor=24273a"></a>
-<a href="https://chromewebstore.google.com/detail/schooltape/denkadefchjkchlefgfhdmabagdcefhf"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome_Web_Store-b7bdf8?style=for-the-badge&logo=GoogleChrome&logoColor=24273a"></a>
+<div style="display: flex; justify-content: center; gap: 1rem;">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/schooltape/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox_Add--ons-f5a97f?style=for-the-badge&logo=Firefox-Browser&logoColor=24273a"></a>
+  <a href="https://chromewebstore.google.com/detail/schooltape/denkadefchjkchlefgfhdmabagdcefhf"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome_Web_Store-b7bdf8?style=for-the-badge&logo=GoogleChrome&logoColor=24273a"></a>
+</div>
 
 ::: info
 Schooltape is currently unavailable in the following web stores:
