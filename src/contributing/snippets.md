@@ -1,7 +1,7 @@
 # Snippets
 
 ::: info
-Please read the [contribution instructions](/contributing) before contributing.
+Please read the [contribution instructions](/contributing/) before contributing.
 :::
 
 ## Public Snippets
