@@ -8,20 +8,20 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 - Better Schoolbox: <https://github.com/ActuallyHappening/SchoolBoxStyling>
 - Schoolbox Dark Mode: <https://schoolbox-darkmode.web.app>
 
-| Features                  | Schooltape       | Coolbox | Better Schoolbox   | Schoolbox Dark Mode |
-| ------------------------- | ---------------- | ------- | ------------------ | ------------------- |
-| Works on any Schoolbox    | ✅               | ❌      | 🟠 Partial         | ❌                  |
-| Plugin ecosystem          | ✅               | ❌      | ❌                 | ❌                  |
-| Modern icons 🔌           | ✅               | ✅      | ❌                 | ❌                  |
-| Subheader revamp 🔌       | ✅               | ❓      | ❌                 | ❌                  |
-| Rearrangable homepage 🔌  | ❌ soon™         | ✅      | ❌                 | ❌                  |
-| Command palette 🔌        | ❌ soon™         | ❌      | ❌                 | ❌                  |
-| Themes                    | ✅               | ✅      | 🟠 Manual styling  | ✅                  |
-| Snippet ecosystem         | ✅               | ❌      | ❌                 | ❌                  |
-| Browser support           |                  |         |                    |                     |
-| Chrome                    | ✅               | ✅      | ✅                 | 🟠 Not on store     |
-| Firefox                   | ✅               | ✅      | ❌                 | 🟠 Unlisted         |
-| Edge                      | 🟠               | 🟠      | 🟠                 | 🟠                  |
-| Software info             |                  |         |                    |                     |
-| Open source               | ✅               | ✅      | ✅                 | ❌                  |
-| License                   | GPL-3.0          | MIT     | None               | None                |
+| Features                 | Schooltape | Coolbox | Better Schoolbox  | Schoolbox Dark Mode |
+| ------------------------ | ---------- | ------- | ----------------- | ------------------- |
+| Works on any Schoolbox   | ✅         | ❌      | 🟠 Partial        | ❌                  |
+| Plugin ecosystem         | ✅         | ❌      | ❌                | ❌                  |
+| Modern icons 🔌          | ✅         | ✅      | ❌                | ❌                  |
+| Subheader revamp 🔌      | ✅         | ❓      | ❌                | ❌                  |
+| Rearrangable homepage 🔌 | ❌ soon™  | ✅      | ❌                | ❌                  |
+| Command palette 🔌       | ❌ soon™  | ❌      | ❌                | ❌                  |
+| Themes                   | ✅         | ✅      | 🟠 Manual styling | ✅                  |
+| Snippet ecosystem        | ✅         | ❌      | ❌                | ❌                  |
+| Browser support          |            |         |                   |                     |
+| Chrome                   | ✅         | ✅      | ✅                | 🟠 Not on store     |
+| Firefox                  | ✅         | ✅      | ❌                | 🟠 Unlisted         |
+| Edge                     | 🟠         | 🟠      | 🟠                | 🟠                  |
+| Software info            |            |         |                   |                     |
+| Open source              | ✅         | ✅      | ✅                | ❌                  |
+| License                  | GPL-3.0    | MIT     | None              | None                |
