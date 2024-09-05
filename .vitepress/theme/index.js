@@ -1,4 +1,4 @@
 import DefaultTheme from "vitepress/theme"
-import "./macchiato.css"
+import "@catppuccin/vitepress/theme/macchiato/sapphire.css"
 
 export default DefaultTheme

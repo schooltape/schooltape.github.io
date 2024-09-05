@@ -10,5 +10,8 @@
     "docs:preview": "vitepress preview",
     "docs:lint": "markdownlint '**/*.md' --ignore node_modules",
     "docs:format": "prettier --write '**/*.md'"
+  },
+  "dependencies": {
+    "@catppuccin/vitepress": "github:42willow/vitepress"
   }
 }
