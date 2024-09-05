@@ -26,7 +26,7 @@ export default defineConfig({
     // [
     //   'script',
     //   { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HZBYCLKHJJ' }
-      
+
     // ],
     // [
     //   'script',
@@ -81,6 +81,7 @@ export default defineConfig({
               { text: 'Plugins', link: '/plugins' },
               { text: 'Themes', link: '/themes' },
               { text: 'Snippets', link: '/snippets' },
+              { text: 'Publishing', link: '/publishing' },
             ]
           },
           { text: 'Compare', link: '/compare' }
