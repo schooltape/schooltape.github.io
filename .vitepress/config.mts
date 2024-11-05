@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-const ogTitle = 'Schooltape - A free an open source web extension for Schoolbox!';
+const ogTitle = 'Schooltape - A free and open source web extension for Schoolbox!';
 const ogDescription = 'A web extension that adds themes, plugins, and snippets to Schoolbox.';
 const ogUrl = 'https://schooltape.github.io';
 const ogImage = `${ogUrl}/previews/preview.webp`;
@@ -9,7 +9,7 @@ const ogImage = `${ogUrl}/previews/preview.webp`;
 export default defineConfig({
   title: "Schooltape",
   titleTemplate: `:title - Schooltape`,
-  description: "A free an open source web extension for Schoolbox!",
+  description: "A free and open source web extension for Schoolbox!",
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: ogTitle }],
