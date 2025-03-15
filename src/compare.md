@@ -21,7 +21,7 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 | Browser support          |            |         |                   |                     |
 | Chrome                   | ✅         | ✅      | ✅                | 🟠 Not on store     |
 | Firefox                  | ✅         | ✅      | ❌                | 🟠 Unlisted         |
-| Edge                     | 🟠         | 🟠      | 🟠                | 🟠                  |
+| Edge                     | 🟠         | ✅      | 🟠                | 🟠                  |
 | Software info            |            |         |                   |                     |
 | Open source              | ✅         | ✅      | ✅                | ❌                  |
 | License                  | GPL-3.0    | MIT     | None              | None                |
