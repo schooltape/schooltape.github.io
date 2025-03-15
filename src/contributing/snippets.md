@@ -1,8 +1,9 @@
 # Snippets
 
-::: info
-Please read the [contribution instructions](/contributing/) before contributing.
-:::
+> [!warning] Please wait!
+> These steps are **outdated** for the upcoming `v4.0.0` release of Schooltape.
+> 
+> Please wait for them to be updated before contributing snippets
 
 ## Public Snippets
 
@@ -45,7 +46,7 @@ Please read the [contribution instructions](/contributing/) before contributing.
 
 ## User Snippets
 
-Snippets can also be added manually by the user, allowing users to add them on a per-Schoolbox basis. Create a snippet, following [this format](https://gist.github.com/42Willow/4555f0d8fdf8e59b479fd44539740937) and then share it with your friends! These snippets are able to be removed by the user after installation.
+Snippets can also be added manually by the user. Create a snippet, following [this format](https://gist.github.com/42Willow/4555f0d8fdf8e59b479fd44539740937) and then share it with your friends! These snippets are able to be removed by the user after installation.
 
 Make sure to include the `css` comments
 
