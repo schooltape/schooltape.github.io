@@ -6,6 +6,9 @@
 
 ## From GitHub releases
 
+> [!warning]
+> Installing from GitHub releases is not recommended as you will not receive automatic updates, which includes bug fixes and new features.
+
 1. Download the `schooltape-<version>-chrome.zip` from the bottom of the [latest release page](https://github.com/schooltape/schooltape/releases/latest).
 2. Unzip the file.
 3. Navigate to `edge://extensions`

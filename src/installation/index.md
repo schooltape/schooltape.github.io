@@ -19,7 +19,7 @@ Schooltape is currently unavailable in the following web stores:
 - Edge Add-ons
 - Opera Add-ons
 - Safari Extensions
-  :::
+:::
 
 ## From GitHub releases
 
@@ -28,7 +28,6 @@ Please follow the instructions for your browser:
 - [Chrome](chrome.md)
 - [Firefox](firefox.md)
 - [Edge](edge.md)
-- [Safari](safari.md)
 - [Other](chrome.md)
 
 ## From source
