@@ -23,5 +23,6 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 | Firefox                  | ✅         | ✅      | ❌                | 🟠 Unlisted         |
 | Edge                     | 🟠         | ✅      | 🟠                | 🟠                  |
 | Software info            |            |         |                   |                     |
+| Bundle size              | 138KiB     | 3.08MiB | 7.86MiB           | 1.9MiB              |
 | Open source              | ✅         | ✅      | ✅                | ❌                  |
 | License                  | GPL-3.0    | MIT     | None              | None                |
