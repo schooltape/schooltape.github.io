@@ -32,7 +32,7 @@ Here's a comparison of Schooltape to other popular Schoolbox extensions, you can
 | Open source                                           |     ✅     |     ✅     |        ✅        |         ❌          |
 | License                                               |  GPL-3.0   |    MIT     |       None       |        None         |
 
-[^a]: Planned for future release, see [issue #13](https://github.com/schooltape/schooltape/issues/13)
+[^a]: Planned for future release, see [issue #19](https://github.com/schooltape/schooltape/issues/19)
 
 [^b]: Not listed on the Microsoft Edge Add-ons store, but still installable via the Chrome Web Store or manually
 
