@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@catppuccin/vitepress": "^0.1.2",
+    "markdown-it-footnote": "^4.0.0",
     "markdownlint": "^0.35.0",
     "prettier": "^3.5.3",
     "vitepress": "^1.6.3"
@@ -10,8 +12,5 @@
     "preview": "vitepress preview",
     "lint": "markdownlint '**/*.md' --ignore node_modules",
     "format": "prettier --write '**/*.md'"
-  },
-  "dependencies": {
-    "@catppuccin/vitepress": "^0.1.2"
   }
 }

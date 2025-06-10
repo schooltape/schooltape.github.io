@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import footnote from "markdown-it-footnote";
 
 const ogTitle = "Schooltape - A free and open source web extension for Schoolbox!";
 const ogDescription = "A web extension that adds themes, plugins, and snippets to Schoolbox.";
@@ -10,6 +11,11 @@ export default defineConfig({
   title: "Schooltape",
   titleTemplate: `:title - Schooltape`,
   description: "A free and open source web extension for Schoolbox!",
+  markdown: {
+    config: (md) => {
+      md.use(footnote);
+    },
+  },
   head: [
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:title", content: ogTitle }],
