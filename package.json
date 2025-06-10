@@ -2,7 +2,7 @@
   "devDependencies": {
     "@catppuccin/vitepress": "^0.1.2",
     "markdown-it-footnote": "^4.0.0",
-    "markdownlint": "^0.35.0",
+    "markdownlint": "^0.38.0",
     "prettier": "^3.5.3",
     "vitepress": "^1.6.3"
   },
