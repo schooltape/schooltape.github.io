@@ -2,9 +2,14 @@
 
 Here's a comparison of Schooltape to other popular Schoolbox extensions, you can find their Chrome Web Store listings [here](https://chromewebstore.google.com/search/schoolbox).
 
+## Source code
+
+- Schooltape: <https://github.com/schooltape/schooltape>
 - Coolbox: <https://github.com/T0RNATO/coolbox_extension_new>
 - Better Schoolbox: <https://github.com/ActuallyHappening/SchoolBoxStyling>
 - Schoolbox Dark Mode: <https://schoolbox-darkmode.web.app>
+
+## Comparison
 
 | Features                                              | Schooltape |  Coolbox   | Better Schoolbox | Schoolbox Dark Mode |
 | ----------------------------------------------------- | :--------: | :--------: | :--------------: | :-----------------: |
