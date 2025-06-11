@@ -29,7 +29,7 @@ Here's a comparison of Schooltape to other popular Schoolbox extensions, you can
 | <strong style="opacity: 60%">Browser support</strong> |            |            |                  |                     |
 | Chrome                                                |     ✅     |     ✅     |        ✅        |       🟠 [^e]       |
 | Firefox                                               |     ✅     |     ✅     |        ❌        |       🟠 [^e]       |
-| Edge                                                  |  🟠 [^b]   |     ✅     |     🟠 [^b]      |       🟠 [^b]       |
+| Edge                                                  |  🟠 [^b]   |     ✅     |     🟠 [^b]      |       🟠 [^e]       |
 | <strong style="opacity: 60%">Software info</strong>   |            |            |                  |                     |
 | Creation date                                         | 27/03/2023 | 02/05/2023 |    06/10/2022    |          -          |
 | Languages                                             | TS, Svelte |  TS, Vue   |        JS        |         JS          |
