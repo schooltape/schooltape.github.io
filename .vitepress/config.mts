@@ -112,8 +112,9 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Released under the GPL-3.0 license.",
-      copyright: "Copyright © 2024-present 42willow",
+      message:
+        "This site collects <a href='https://cloud.umami.is/share/TnjgOy3nis3gi3pb/schooltape.github.io'>anonymous usage statistics</a><br><br>Released under the <a href='https://github.com/schooltape/schooltape#GPL-3.0-1-ov-file'>GPL-3.0 license</a>",
+      copyright: "Copyright © 2024-present <a href='https://github.com/42willow'>42willow</a>",
     },
   },
 });
