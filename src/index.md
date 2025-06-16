@@ -21,24 +21,28 @@ features:
   - icon: 🔎
     title: Schoolbox Detection
     details: Automatic detection of any Schoolbox instance!
+    link: /compare
+    linkText: How we compare
   - icon: 🎨
     title: Theme Customisation
-    details: Save your eyes from the harsh white of Schoolbox.
+    details: A selection of the 4 flavours and 14 accents of Catppuccin.
+    link: https://catppuccin.com
+    linkText: Explore Catppuccin
   - icon: 🔌
     title: Plugin Support
-    details: Built with a plugin system in mind, allowing for easy extensibility.
+    details: A variety of plugins that add extra functionality to Schoolbox.
     link: /ecosystem/plugins
-    linkText: Explore Plugins
+    linkText: Explore plugins
   - icon: 🖌️
     title: Snippet Ecosystem
-    details: Schooltape has a growing ecosystem of snippets, allowing for easy CSS modifications.
+    details: Use pre-made snippets or create your own!
     link: /ecosystem/snippets
-    linkText: Explore Snippets
+    linkText: Explore snippets
 ---
 
 ## Schooltape is <span style="color: var(--vp-c-brand-3)">_the only_</span> cross compatible web extension for Schoolbox
 
-Schooltape was built with the intention of improving the Schoolbox experience for everyone, regardless of their Schoolbox instance. Read more about how we compare [here](/compare).
+Schooltape works on any Schoolbox out of the box, with no need to reach out to get your school supported. Read more about how we compare [here](/compare)!
 
 ![Schooltape preview](https://raw.githubusercontent.com/schooltape/schooltape/main/assets/previews/preview.webp)
 
