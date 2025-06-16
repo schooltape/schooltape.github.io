@@ -29,7 +29,7 @@ features:
     link: https://catppuccin.com
     linkText: Explore Catppuccin
   - icon: 🔌
-    title: Plugin Support
+    title: Plugin Ecosystem
     details: A variety of plugins that add extra functionality to Schoolbox.
     link: /ecosystem/plugins
     linkText: Explore plugins
