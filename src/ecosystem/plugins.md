@@ -1,5 +1,8 @@
 # Plugins
 
+> [!warning] OUTDATED
+> The information on the following page is **outdated** for the upcoming `v4.0.0` release of Schooltape.
+
 ## Available Plugins
 
 - **Modern Icons**: Modernise the icons across Schoolbox.

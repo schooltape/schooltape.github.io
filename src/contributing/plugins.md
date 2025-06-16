@@ -1,9 +1,7 @@
 # Plugins
 
-> [!warning]
-> These steps are based off the upcoming `v4.0.0` release of Schooltape. If you are planning on contributing, please base your changes off the `v4.0.0` branch.
->
-> Breaking changes may occur before the release.
+> [!warning] OUTDATED
+> The information on the following page is **outdated** for the upcoming `v4.0.0` release of Schooltape.
 
 > [!important]
 > For CSS only modifications, see [snippets](snippets.md)
