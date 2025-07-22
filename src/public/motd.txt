@@ -1,0 +1,1 @@
+Free and <a href='https://github.com/schooltape/schooltape' class='text-(--ctp-accent)'> open source</a>!
