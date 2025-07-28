@@ -1,1 +1,1 @@
-Issues present in v4 should be fixed in <a href='https://github.com/schooltape/schooltape/releases/tag/v4.0.3' class='text-(--ctp-accent)'>v4.0.3</a> now, note that it may take some time for web stores to roll out the update.
+Free and <a href='https://github.com/schooltape/schooltape' class='text-(--ctp-accent)'> open source</a>!
