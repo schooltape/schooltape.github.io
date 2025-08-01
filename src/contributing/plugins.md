@@ -73,7 +73,81 @@ export default function init() { // [!code ++]
 
 ### Plugin Settings
 
-> [!important]
-> This section of the documentation is under construction, please check back later \:)
+Under your plugin storage item in `src/utils/storage.ts` there is a 5th optional parameter of the `createPlugin` which expects an Object with settings components.
 
-<!--Under your plugin storage item in `src/utils/storage.ts`-->
+At the time of writing, the following components are available for configuration:
+
+- slider: a range slider (between a given minimum and maximum)
+- toggle: a boolean toggle
+
+It's easier to include an example, so here's an example for the plugin `scrollPeriod` that has one `toggle` and one `slider`:
+
+```ts
+scrollPeriod: createPlugin("scrollPeriod", "Scroll Period", "Scrolls to the current period on the timetable.", true, {
+  toggle: {
+    resetCooldownOnMouseMove: {
+      toggle: new StorageState(
+        storage.defineItem<Types.ToggleSetting>("local:plugin-scrollPeriod-resetCooldownOnMouseMove", {
+          fallback: {
+            toggle: true,
+          },
+        }),
+      ),
+      info: {
+        name: "Reset on mouse move",
+        description: "Whether to reset the scrolling cooldown when you move your mouse.",
+      },
+    },
+  },
+  slider: {
+    cooldownDuration: {
+      slider: new StorageState(
+        storage.defineItem<Types.SliderSetting>("local:plugin-scrollPeriod-cooldownDuration", {
+          fallback: {
+            min: 1,
+            max: 60,
+            value: 10,
+          },
+        }),
+      ),
+      info: {
+        name: "Cooldown duration (s)",
+        description: "How long to wait before scrolling.",
+      },
+    },
+  },
+}),
+```
+
+At the moment, the way of accessing the values of these settings is a bit convoluted, I plan on making this neater in the future but for now refer to the following example:
+
+```ts
+// the value of the cooldownDuration slider
+const cooldownDuration = await data.settings?.slider?.cooldownDuration?.slider?.storage?.getValue();
+
+// the value of the resetCooldownOnMouseMove slider
+const resetCooldownOnMouseMove = await data.settings?.toggle?.resetCooldownOnMouseMove?.toggle?.storage?.getValue();
+```
+
+### Code!
+
+Now that you have finished setting up the plugin storage, you can start working on the logic. This is located in `src/entrypoints/plugins/<nameCamelCase>.ts` or `src/entrypoints/plugins/<nameCamelCase>/index.ts`, depending on which one you chose.
+
+You can put your code inside the arrow function, which will run whenever a Schoolbox page is loaded. For a simple example you can look at `src/entrypoints/plugins/tabTitle.ts`.
+
+> [!NOTE]
+> You can access the plugin ID (`<nameCamelCase>`) and plugin data through the arguments of the arrow function.
+>
+> - `id`: `<nameCamelCase>`
+> - `data`: plugins[`<nameCamelCase>`]
+>
+> ```ts
+> export default function init() {
+>   defineStPlugin(
+>     "<nameCamelCase>",
+>     () => { // [!code --]
+>     (id, data) => { // [!code ++]
+>       // ...
+>    }
+>  )
+> ```
