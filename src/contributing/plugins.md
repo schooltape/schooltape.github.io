@@ -1,8 +1,5 @@
 # Plugins
 
-> [!warning] OUTDATED
-> The information on the following page is **outdated** for the upcoming `v4.0.0` release of Schooltape.
-
 > [!important]
 > For CSS only modifications, see [snippets](snippets.md)
 
@@ -17,73 +14,28 @@ Throughout this guide, you will see these between `<angle brackets>`. Replace th
 
 ## Creating a Plugin
 
-> [!info]
-> For a real life example, see [this](https://github.com/schooltape/schooltape/commit/721f6b76adcb6d6265ee25e78dc59ef345efa29f) commit!
-
 ### Boilerplate
 
-1. Append your plugin `nameCamelCase` to the union type `PluginId` in `src/utils/constants.ts`
+1. Append your plugin to the `plugins` record in `src/utils/storage.ts`
 
 ```ts
-export type PluginId =
-  | "subheader"
-  | "scrollSegments"
+export const plugins: Record<Types.PluginId, Types.PluginData> = {
   // ...
-  | "<nameCamelCase>"; // [!code ++]
+  <nameCamelCase>: createPlugin(
+    "<nameCamelCase>",
+    "<name>", // the Title Case name of your plugin
+    "<description>", // a short description of what your plugin does, please use punctuation and end with a full stop
+    true, // whether your plugin should be enabled by defualt
+  ),
+  // ...
+}
 ```
 
-2. Append your plugin information to the `PLUGIN_INFO` object in `src/utils/constants.ts`
+You can also have settings for your plugin, this will be covered in the [settings](#plugin-settings) section.
 
-<!-- prettier-ignore -->
-```ts
-export const PLUGIN_INFO: Record<Types.PluginId, Types.PluginInfo> = {
-  subheader: {
-    name: "Subheader Revamp",
-    description: "Adds a clock and current period info to the subheader",
-  },
-  scrollSegments: {
-    name: "Scroll Segments",
-    description: "Segments the Schoolbox page into scrollable sections",
-  },
-  // ...
-  <nameCamelCase>: { // [!code ++]
-    name: "<name>", // [!code ++]
-    description: "<description>", // [!code ++]
-  }, // [!code ++]
-};
-```
-
-3. Append your plugin settings to the `plugins` record in `src/utils/storage.ts`
-
-<!-- prettier-ignore -->
-```ts
-export const plugins: Record<Types.PluginId, WxtStorageItem<Types.PluginGeneric, any>> = {
-  subheader: storage.defineItem<Types.PluginGeneric>("local:plugin-subheader", {
-    fallback: {
-      toggle: true,
-    },
-  }),
-  scrollSegments: storage.defineItem<Types.PluginGeneric>("local:plugin-scrollSegments", {
-    fallback: {
-      toggle: true,
-    },
-  }),
-  // ...
-  <nameCamelCase>: storage.defineItem<Types.PluginGeneric>("local:plugin-<nameCamelCase>", { // [!code ++]
-    fallback: { // [!code ++]
-      // here you can define the default settings for your plugin // [!code ++]
-      toggle: true, // [!code ++]
-    }, // [!code ++]
-  }), // [!code ++]
-};
-```
-
-4. Import your plugin in `src/entrypoints/plugins.content.ts`
+2. Import your plugin in `src/entrypoints/plugins.content.ts`
 
 ```ts
-// @ts-ignore
-import subheader from "./plugins/subheader";
-import scrollSegments from "./plugins/scrollSegments";
 // ...
 import <nameCamelCase> from "./plugins/<nameCamelCase>"; // [!code ++]
 
@@ -92,20 +44,18 @@ export default defineContentScript({
   runAt: "document_start",
   excludeMatches: EXCLUDE_MATCHES,
   async main() {
-    subheader();
-    scrollSegments();
     // ...
     <nameCamelCase>(); // [!code ++]
   },
 });
 ```
 
-5. Create your plugin function in `src/entrypoints/plugins` with the name of your plugin in camelCase
+3. Create your plugin function in `src/entrypoints/plugins` with the name of your plugin in camelCase
    - If you are planning to include CSS, HTML, or Svelte alongside your TypeScript:
-     1. Create a new folder in `src/entrypoints/plugins` with the name of your plugin in camelCase (e.g. `myNewPlugin`).
+     1. Create a new directory in `src/entrypoints/plugins` called `<nameCamelCase>`
      2. Inside this folder, you can create a `index.ts` file for your TypeScript, and any other files you need (e.g. `styles.css`)
    - If you are only planning to include TypeScript:
-     1. Create a new file in `src/entrypoints/plugins` with the name of your plugin in camelCase (e.g. `myNewPlugin.ts`)
+     1. Create a new file in `src/entrypoints/plugins` called `<nameCamelCase>.ts`
 
 Now, in your TypeScript file, copy the following boilerplate:
 
@@ -121,6 +71,9 @@ export default function init() { // [!code ++]
 } // [!code ++]
 ```
 
-### Code!
+### Plugin Settings
 
-Now that you have dealt with all that boilerplate, you can start actually building your plugin!
+> [!important]
+> This section of the documentation is under construction, please check back later :)
+
+<!--Under your plugin storage item in `src/utils/storage.ts`-->
