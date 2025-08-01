@@ -74,6 +74,6 @@ export default function init() { // [!code ++]
 ### Plugin Settings
 
 > [!important]
-> This section of the documentation is under construction, please check back later :)
+> This section of the documentation is under construction, please check back later \:)
 
 <!--Under your plugin storage item in `src/utils/storage.ts`-->
