@@ -1,1 +1,1 @@
-<p class="text-xs">Schooltape will perform a final settings reset in <span class='text-(--ctp-accent)'>v4.0.5</span> to fix the issue where settings kept resetting, sorry! Stability issues are fixed in this update.</p>
+<p class="text-xs">Schooltape will perform a settings reset in <span class='text-(--ctp-accent)'>v4.0.5</span> to fix the issue where settings kept resetting, sorry! Stability issues are fixed in this update.</p>
