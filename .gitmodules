@@ -1,0 +1,3 @@
+[submodule "schooltape"]
+	path = schooltape
+	url = https://github.com/schooltape/schooltape

@@ -11,6 +11,7 @@ export default defineConfig({
   title: "Schooltape",
   titleTemplate: `:title - Schooltape`,
   description: "A free and open source web extension for Schoolbox!",
+  lastUpdated: true,
   markdown: {
     config: (md) => {
       md.use(footnote);
