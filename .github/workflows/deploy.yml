@@ -33,6 +33,11 @@ jobs:
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
           submodules: true
+      - name: breakpoint
+        uses: namespacelabs/breakpoint-action@v0
+        with:
+          duration: 30m
+          authorized-users: 42willow
       - uses: oven-sh/setup-bun@v1
       - name: Setup Pages
         uses: actions/configure-pages@v5
