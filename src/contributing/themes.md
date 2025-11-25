@@ -6,7 +6,7 @@ We use [Catppuccin](https://catppuccin.com) as our colour scheme, it includes
 > [!info] Adding a new theme
 >
 > Currently there are no plans to add any additional colour schemes to Schooltape.
-> However, if you are interested in having a theme added please don't hesitate to open an issue or pull request on GitHub (see [contributing](/contributing)).
+> However, if you are interested in having a theme added please don't hesitate to open an issue or pull request on GitHub (see [Contributing](./index)).
 
 ## Updating the theme
 
