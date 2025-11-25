@@ -5,12 +5,12 @@
 
 First, you will need the following:
 
-| Field | Type | Description | Example |
-| - | - | - | - |
-| `name` | `string` | The name of your plugin in Title Case | `Scroll Segments` |
-| `nameCamelCase` | `string` | The name of your plugin in camelCase | `scrollSegments` |
-| `description` | `string` | A brief description of what your plugin does | `Segments the Schoolbox page into scrollable segments.` |
-| `targets` (optional) | `string[]` | An array of CSS selectors to wait for to load before injecting the plugin | `["#content", "#footer"]` |
+| Field                | Type       | Description                                                               | Example                                                 |
+| -------------------- | ---------- | ------------------------------------------------------------------------- | ------------------------------------------------------- |
+| `name`               | `string`   | The name of your plugin in Title Case                                     | `Scroll Segments`                                       |
+| `nameCamelCase`      | `string`   | The name of your plugin in camelCase                                      | `scrollSegments`                                        |
+| `description`        | `string`   | A brief description of what your plugin does                              | `Segments the Schoolbox page into scrollable segments.` |
+| `targets` (optional) | `string[]` | An array of CSS selectors to wait for to load before injecting the plugin | `["#content", "#footer"]`                               |
 
 Throughout this guide, you will see these between `<angle brackets>`. Replace them with the appropriate values.
 
@@ -19,58 +19,55 @@ Throughout this guide, you will see these between `<angle brackets>`. Replace th
 ### Boilerplate
 
 1. Append your plugin to the `pluginConfig` record in `src/utils/storage/plugins.ts`
+   ```ts
+   export const pluginConfig: Record<string, Types.PluginConfig> = {
+     // ...
+     <nameCamelCase>: {
+       name: "<name>",
+       description: "<description>",
+       default: true, // whether your plugin should be enabled by default
+     },
+     // ...
+   }
+   ```
+   You can also have settings for your plugin, this will be covered in the [settings](#plugin-settings) section.
 
-```ts
-export const pluginConfig: Record<Types.PluginId, Types.PluginConfig> = {
-  // ...
-  <nameCamelCase>: {
-    name: "<name>",
-    description: "<description>",
-    default: true, // whether your plugin should be enabled by default
-  },
-  // ...
-}
-```
-
-You can also have settings for your plugin, this will be covered in the [settings](#plugin-settings) section.
-
-2. Import your plugin in `src/entrypoints/plugins.content.ts`
-
-```ts
-// ...
-import <nameCamelCase> from "./plugins/<nameCamelCase>"; // [!code ++]
-
-export default defineContentScript({
-  matches: ["<all_urls>"],
-  runAt: "document_start",
-  excludeMatches: EXCLUDE_MATCHES,
-  async main() {
-    // ...
-    <nameCamelCase>(); // [!code ++]
-  },
-});
-```
-
-3. Create your plugin function in `src/entrypoints/plugins` with the name of your plugin in camelCase
+2. Create your plugin function in `src/entrypoints/plugins` with the name of your plugin in camelCase
    - If you are planning to include CSS, HTML, or Svelte alongside your TypeScript:
      1. Create a new directory in `src/entrypoints/plugins` called `<nameCamelCase>`
      1. Inside this folder, you can create a `index.ts` file for your TypeScript, and any other files you need (e.g. `styles.css`)
    - If you are only planning to include TypeScript:
      1. Create a new file in `src/entrypoints/plugins` called `<nameCamelCase>.ts`
 
-Now, in your TypeScript file, copy the following boilerplate:
+   Now, in your TypeScript file, copy the following boilerplate:
 
-```ts
-export default function init() { // [!code ++]
-  defineStPlugin( // [!code ++]
-    "<nameCamelCase>", // [!code ++]
-    () => { // [!code ++]
-      // Your code here // [!code ++]
-    }, // [!code ++]
-    [<targets>], // [!code ++]
-  ); // [!code ++]
-} // [!code ++]
-```
+   ```ts
+   export default function init() { // [!code ++]
+     defineStPlugin( // [!code ++]
+       "<nameCamelCase>", // [!code ++]
+       () => { // [!code ++]
+         // Your code here // [!code ++]
+       }, // [!code ++]
+       [<targets>], // [!code ++]
+     ); // [!code ++]
+   } // [!code ++]
+   ```
+
+3. Import your plugin in `src/entrypoints/plugins.content.ts`
+   ```ts
+   // ...
+   import <nameCamelCase> from "./plugins/<nameCamelCase>"; // [!code ++]
+
+   export default defineContentScript({
+     matches: ["<all_urls>"],
+     runAt: "document_start",
+     excludeMatches: EXCLUDE_MATCHES,
+     async main() {
+       // ...
+       <nameCamelCase>(); // [!code ++]
+     },
+   });
+   ```
 
 ### Plugin Settings
 
@@ -97,7 +94,7 @@ In `src/utils/storage/plugins.ts` there is an optional settings field which can 
 Say we are developing a command palette plugin, and want to add a slider for the number of results shown in the popup. We can add the following code to our plugin definition:
 
 ```ts
-export const pluginConfig: Record<Types.PluginId, Types.PluginConfig> = {
+export const pluginConfig: Record<string, Types.PluginConfig> = {
   // ...
   <nameCamelCase>: {
     name: "<name>",
