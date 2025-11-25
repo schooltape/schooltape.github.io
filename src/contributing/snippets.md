@@ -41,26 +41,3 @@
    ```
 3. Create a new file in `src/public/snippets` with the name `<yourSnippetName>.css`
 4. Put in your CSS code and [test it](/contributing/#setup)!
-
-## User Snippets
-
-Snippets can also be added manually by the user. Create a snippet, following [this format](https://gist.github.com/42Willow/4555f0d8fdf8e59b479fd44539740937) and then share it with your friends! These snippets are able to be removed by the user after installation.
-
-Make sure to include the `css` comments
-
-- Do not use quotation marks
-- Make sure it is spelt correctly
-- Leave a trailing newline character
-
-```css
-/* name: Hide PFP */
-/* description: Hide your profile picture across Schoolbox */
-```
-
-::: tip FAQ
-**Q:** How do I install my user snippet?
-
-**A:** Copy the gist URL into the input box (`Schooltape popup` > `Snippets` > `User Snippets` > `Gist URL`)
-:::
-
-You can find and share snippets in the [Schooltape Discord](https://discord.gg/rZxtGJ98BE)
