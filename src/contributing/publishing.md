@@ -2,11 +2,13 @@
 
 See [wxt.dev](https://wxt.dev/get-started/publishing.html) for more information.
 
+> [!note]
+> This is only necessary for maintainers of Schooltape.
+
 ## Chrome Web Store
 
-::: info
-For first time setup, please refer to the Chrome Web Store [docs](https://developer.chrome.com/docs/webstore/using-api#setup)
-:::
+> [!info]
+> For first time setup, please refer to the Chrome Web Store [docs](https://developer.chrome.com/docs/webstore/using-api#setup)
 
 Useful links:
 
@@ -28,6 +30,5 @@ This documentation exists as the CWS API keys seem to invalidate after one month
 10. Edit the following secrets:
     - `CHROME_REFRESH_TOKEN` with the refresh token from the OAuth 2.0 Playground.
 
-::: warning
-If you get an error message, open a new window without cookies and try again. It is probably best to just do this in the first case.
-:::
+> [!warning]
+> If you get an error message, open a new window without cookies and try again. It is probably best to just do this in the first case.

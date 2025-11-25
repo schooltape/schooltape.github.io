@@ -13,14 +13,12 @@ The extension is available on the Chrome Web Store and the Firefox Add-ons exten
   <a href="https://chromewebstore.google.com/detail/schooltape/denkadefchjkchlefgfhdmabagdcefhf"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome_Web_Store-b7bdf8?style=for-the-badge&logo=GoogleChrome&logoColor=24273a"></a>
 </div>
 
-::: info
-Schooltape is currently unavailable in the following web stores:
-
-- Edge Add-ons
-- Opera Add-ons
-- Safari Extensions
-
-:::
+> [!info]
+> Schooltape is currently unavailable in the following web stores:
+>
+> - Edge Add-ons
+> - Opera Add-ons
+> - Safari Extensions
 
 ## From GitHub releases
 
@@ -33,9 +31,8 @@ Please follow the instructions for your browser:
 
 ## From source
 
-::: warning
-Installing from source is not recommended for most users.
-:::
+> [!warning]
+> Installing from source is not recommended for most users.
 
 1. Clone the repository:
 
@@ -97,10 +94,8 @@ Installing from source is not recommended for most users.
      2. Click on `Load Temporary Add-on`.
      3. Select the `manifest.json` file in the `dist` directory in the `schooltape` directory.
 
-::: tip
-You can also use `bun dev` or `bun dev:firefox` to build the extension in development mode, which will automatically reload the extension when you make changes. More information can be found in the [contributing guide](/contributing/index.md).
-:::
+> [!tip]
+> You can also use `bun dev` or `bun dev:firefox` to build the extension in development mode, which will automatically reload the extension when you make changes. More information can be found in the [contributing guide](/contributing/index.md).
 
-::: warning
-Loading a temporary add-on in Firefox will remove the extension when you close the browser.
-:::
+> [!warning]
+> Loading a temporary add-on in Firefox will remove the extension when you close the browser.
