@@ -55,7 +55,6 @@ Here's a comparison of Schooltape to other popular Schoolbox extensions, you can
 
 [^i]: By scrolling enhancements I am referring to the "Scroll Period" and "Scroll Segments" Schooltape plugins, which scroll to the current period on the homepage and segment the page into multiple scrollable sections, respectively
 
-
 ## Other extensions
 
 The following extensions are not listed on web stores and may have limited functionality:
