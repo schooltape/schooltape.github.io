@@ -5,6 +5,7 @@ const config = {
   kit: {
     adapter: adapter(),
     prerender: {
+      handleUnseenRoutes: "ignore",
       handleHttpError: ({ path, referrer, message }) => {
         if (path === "/wiki" || path === "/wiki/") return;
 

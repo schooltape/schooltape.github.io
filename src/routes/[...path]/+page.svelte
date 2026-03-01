@@ -6,7 +6,7 @@
   let redirect = `/wiki/${$page.params.path}`;
 
   onMount(() => {
-    if (dev) return;
+    if (dev || $page.params.path?.startsWith("/wiki")) return;
     window.location.replace(redirect);
   });
 </script>
