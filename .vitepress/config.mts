@@ -11,7 +11,6 @@ export default defineConfig({
   title: "Schooltape",
   titleTemplate: `:title - Schooltape`,
   description: "A free and open source web extension for Schoolbox!",
-  base: "/wiki/",
   lastUpdated: true,
   markdown: {
     config: (md) => {
@@ -56,7 +55,7 @@ export default defineConfig({
       alt: "Schooltape logo",
     },
     editLink: {
-      pattern: "https://github.com/schooltape/wiki/edit/main/docs/:path",
+      pattern: "https://github.com/schooltape/schooltape.github.io/edit/main/docs/:path",
     },
     nav: [
       { text: "Home", link: "/" },
