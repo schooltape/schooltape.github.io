@@ -28,7 +28,7 @@ export default defineConfig({
     ["meta", { name: "twitter:title", content: ogTitle }],
     ["meta", { name: "twitter:description", content: ogDescription }],
     ["link", { rel: "icon", href: "favicon.ico" }],
-    ["meta", { name: "google-site-verification", content: "MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY" }],
+    ["meta", { name: "google-site-verification", content: "HMCS2W8FOVGNaXOatxJZylQLDU6NT5k6s-lHURa1YaQ" }],
     [
       "script",
       { defer: "", src: "https://cloud.umami.is/script.js", "data-website-id": "ea226262-8179-4564-9699-93feae99e84b" },
