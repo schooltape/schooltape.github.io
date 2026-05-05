@@ -47,6 +47,9 @@ export default defineConfig({
     //   gtag('config', 'G-HZBYCLKHJJ');`
     // ]
   ],
+  sitemap: {
+    hostname: "https://schooltape.github.io",
+  },
   srcDir: "./docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
