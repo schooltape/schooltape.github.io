@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/typedoc-plugin-markdown/typedoc-plugin-markdown.schema.json",
+  "plugin": ["typedoc-plugin-markdown", "typedoc-plugin-frontmatter", "typedoc-vitepress-theme"],
+  "out": "./docs/api",
+  "entryPoints": ["../serrator/src/index.ts"],
+  "tsconfig": "../serrator/tsconfig.json",
+  "skipErrorChecking": true,
+  "readme": "none",
+  "docsRoot": "./docs/api",
+  "frontmatterGlobals": {
+    "outline": [2, 3],
+    "editLink": false
+  },
+  "sidebar": {
+    "pretty": true
+  }
+}
