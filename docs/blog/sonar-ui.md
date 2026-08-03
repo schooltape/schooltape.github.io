@@ -5,8 +5,9 @@
 > - Schooltape `>=4.5.4`
 > - Schoolbox `>=26.0.0`
 
-> [!warning]
-> This update seems to have accidentally broken theme styles for schools with sonar UI disabled, a release will be published in a couple hours and may take a little longer to roll out via extension web stores (`v4.5.5`) - didn't know this was going to happen as I don't have access to an instance with it disabled - sorry!
+> [!info]
+> This update (`v4.5.4`) accidentally broke styles for schools with sonar UI disabled, a release has been published (`v4.5.5`) and may take a few hours to roll out via extension web stores - sorry!
+> Please see [issue #393](https://github.com/schooltape/schooltape/issues/393) for the latest information.
 
 **tl;dr** "Sonar UI" is now disabled when themes are enabled, and broken functionality of the extension has been fixed.
 
