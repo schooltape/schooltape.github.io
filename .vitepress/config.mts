@@ -107,6 +107,11 @@ export default defineConfig({
           { text: "Snippets", link: "/snippets" },
         ],
       },
+      {
+        text: "Blog",
+        base: "/blog",
+        items: [{ text: "Sonar UI updates (v4.5.4)", link: "/sonar-ui" }],
+      },
     ],
 
     socialLinks: [
