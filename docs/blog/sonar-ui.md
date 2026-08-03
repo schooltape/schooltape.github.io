@@ -44,7 +44,7 @@ Experience in HTML, CSS, and JS required - Typescript and Svelte is preferred.
 
 The "Sonar UI" update may look bad, but Schoolbox made some very nice changes to the CSS styling, consolidating most of it into a set of CSS variables rather than the mess that was before.
 
-Changes can be seen on [this branch](https://github.com/schooltape/schooltape/tree/sb-26.1).
+Changes made to Schooltape can be seen on [this branch](https://github.com/schooltape/schooltape/tree/sb-26.1).
 
 At the moment Schooltape rolls back by disabling the `sbx-core.css` and `skin.css.php` stylesheets. This works because most of the old variables are fallbacks, so if the new ones are missing it reverts to them.
 
