@@ -1,1 +1,1 @@
-<p>Free and <a href='https://github.com/schooltape/schooltape' class='text-(--ctp-accent)'> open source</a>!</p>
+<p>Read the Sonar UI <a href='https://schooltape.github.io/blog/sonar-ui.html' class='text-(--ctp-accent)' target="_blank"> blog post</a> :)</p>
