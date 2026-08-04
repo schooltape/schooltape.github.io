@@ -23,5 +23,3 @@ Make sure to include the `css` comments
 > [!tip] FAQs
 > **Q:** How do I install my user snippet?\
 > **A:** Copy the gist URL into the input box (`Schooltape popup` > `Snippets` > `User Snippets` > `Gist URL`)
-
-You can find and share snippets in the [Schooltape Discord](https://discord.gg/rZxtGJ98BE)

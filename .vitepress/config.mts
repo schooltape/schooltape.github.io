@@ -114,11 +114,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "discord", link: "https://discord.gg/rZxtGJ98BE" },
-      // TODO: schooltape/schooltape
-      { icon: "github", link: "https://github.com/schooltape/schooltape" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/schooltape/schooltape" }],
 
     footer: {
       message:

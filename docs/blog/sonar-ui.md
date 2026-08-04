@@ -12,7 +12,7 @@
 **tl;dr** "Sonar UI" is now disabled when themes are enabled, and broken functionality of the extension has been fixed.
 
 This update rolls back Schoolbox's "Sonar UI" when themes are enabled. Unfortunately this doesn't work for when themes are disabled due to [technical limitations](#technical-info). I meant to get to this around three weeks ago when they published the changes on their documentation site, but have been busy, sorry about that!
-If you find any issues, please report them on the [GitHub issue tracker](https://github.com/schooltape/schooltape/issues/new?template=bug.yml) or on the Discord server ([invite](https://discord.gg/rZxtGJ98BE)) - I wouldn't be surprised as I rushed this in an evening.
+If you find any issues, please report them on the [GitHub issue tracker](https://github.com/schooltape/schooltape/issues/new?template=bug.yml).
 
 This is my first and last blog post for Schooltape so you don't need to worry about opting out of these for every update, I just thought it was informative because of the major changes.
 
@@ -24,7 +24,7 @@ These will likely be the last updates I will make to Schooltape.
 
 ## looking for a maintainer
 
-I'm finishing school this year, if you're interested in picking up maintainership, please contact me via the discord or directly via [email](mailto:42willow@pm.me)
+If you're interested in picking up maintainership please contact me directly via [email](mailto:42willow@pm.me)
 Experience in HTML, CSS, and JS required - Typescript and Svelte is preferred.
 
 ## bonus technical info {#technical-info}
