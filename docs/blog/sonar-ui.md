@@ -18,24 +18,7 @@ This is my first and last blog post for Schooltape so you don't need to worry ab
 
 ## change log
 
-- themes
-  - disable "Sonar UI" while themes are enabled
-- plugins
-  - fix "Progress Bar" not appearing with themes disabled
-  - fix "Modern Icons" not working
-
-## immediate future plans
-
-Over the next coming days and weeks I hope to:
-
-- themes
-  - add a slider to adjust "Sonar UI" corner rounding
-  - add a slider to disable "Sonar UI" margins
-  - optionally use "Sonar UI" for themeing (phasing out the legacy theme)
-- snippets
-  - retire "Rounded Corners" snippet in favour of the "Sonar UI" slider
-  - "Fix Sonar UI" snippet that fixes missing styling such as sharp corners
-  - replace "User Snippets" with "Quick CSS"
+Please refer to [GitHub Issue #393](https://github.com/schooltape/schooltape/issues/393).
 
 These will likely be the last updates I will make to Schooltape.
 
